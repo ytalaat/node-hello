@@ -20,6 +20,6 @@ pipeline {
             }
           }
         }
-    }              sh "curl http://localhost:9000"
+    }
 
 }
