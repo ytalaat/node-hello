@@ -3,7 +3,7 @@ const port = process.env.PORT || 7000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node from Staging\n'
+  const msg = 'Hello Node from Staging branch\n'
   res.end(msg);
 });
 
