@@ -17,9 +17,9 @@ pipeline {
           steps{
             script {
               sh "docker run -p 9000:9000 node-hello:testing"
-              sh "curl http://localhost:9000"
             }
           }
         }
-    }
+    }              sh "curl http://localhost:9000"
+
 }
