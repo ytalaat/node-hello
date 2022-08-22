@@ -6,8 +6,11 @@ WORKDIR /usr/src/app
 # Bundle app source
 COPY . .
 
-# open port 9000
-EXPOSE 9000
+
+
+# open port 3000
+EXPOSE 3000
+
 
 # start server
 CMD [ "npm", "start" ]
